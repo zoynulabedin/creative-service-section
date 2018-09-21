@@ -1,0 +1,89 @@
+/*Base css*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:0 0 15px;
+	font-weight: 700;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+.service-bg-1{background-image: url(../img/chef-1.jpg)}
+.service-bg-2{background-image: url(../img/chef-2.jpg)}
+.service-bg-3{background-image: url(../img/chef-3.jpg)}
+.service-bg-4{background-image: url(../img/chef-4.jpg)}
+
+.section-title h2 {color: #333;margin-bottom: 30px;}
+
+body {
+    background-color: #F9F9F8;
+}
+
+.single-service-item {
+    background: #fff;
+    transition: .5s;
+}
+
+.service-bg {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-box-inner {
+    border: 1px solid#eeeeee;
+    border-top: 0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.service-box-inner h3 {
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p.service-meta {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    opacity: .5;
+}
+
+.single-service-box {
+    position: relative;
+}
+
+.service-box-more-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    text-align: center;
+    width: 100%;
+}
+
+a.border-btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
